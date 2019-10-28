@@ -15,7 +15,7 @@ This is a clone of an older Apple website for the first solo project in the micr
 
 ## Technologies
 <!--Add more technologies HERE-->
-The technologies we used were Github, VSCode, HTML/CSS, Stickler, and Styleint.
+The technologies used were Github, VSCode, HTML/CSS, Stickler, and Styleint.
 
 ## Acknowledgements
 
@@ -23,8 +23,8 @@ I used refences from the ODIN PROJECT website for technical information, as well
 
 ## About me
 
-GITHUB PROFILE
+GITHUB PROFILE <br>
 [github](https://github.com/HeyItsGwen)
 
-LINKEDIN PROFILE
+LINKEDIN PROFILE <br>
 [linkedin](https://www.linkedin.com/in/gwen-hey-642109191/)
