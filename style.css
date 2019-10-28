@@ -3,6 +3,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0px;
 }
@@ -145,11 +150,15 @@ nav {
 #links {
   width: 1475px;
   margin: auto;
+  margin-top: -30px;
 }
 
 #links img {
-  display: inline-block;
+  display: inline-flex;
   margin: 0px;
+  width: 24.4%;
+  position: relative;
+  left: 10px;
 }
 
 /* FOOTER */
@@ -158,8 +167,8 @@ nav {
   font-size: 0.65em;
   color: #6e6e6e;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #footerWrapper ul {
