@@ -15,7 +15,7 @@ This is a clone of an older Apple website for the first solo project in the micr
 
 ## Technologies
 <!--Add more technologies HERE-->
-The technologies used were Github, VSCode, HTML/CSS, Stickler, and Styleint.
+The technologies used were Github, VSCode, HTML/CSS, Stickler, and Stylelint.
 
 ## Acknowledgements
 
