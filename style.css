@@ -85,10 +85,18 @@ nav {
   background-position-y: -1.5%;
 }
 
+#nav1:hover {
+  background-image: url(images/iconsdark.png);
+}
+
 #nav2 {
   background-image: url(images/icons.png);
   background-position-x: 50%;
   background-position-y: 13.2%;
+}
+
+#nav2:hover {
+  background-image: url(images/iconsdark.png);
 }
 
 #nav3 {
@@ -97,10 +105,18 @@ nav {
   background-position-y: 27.5%;
 }
 
+#nav3:hover {
+  background-image: url(images/iconsdark.png);
+}
+
 #nav4 {
   background-image: url(images/icons.png);
   background-position-x: 50%;
   background-position-y: 42%;
+}
+
+#nav4:hover {
+  background-image: url(images/iconsdark.png);
 }
 
 #nav5 {
@@ -109,10 +125,18 @@ nav {
   background-position-y: 57.3%;
 }
 
+#nav5:hover {
+  background-image: url(images/iconsdark.png);
+}
+
 #nav6 {
   background-image: url(images/icons.png);
   background-position-x: 50%;
   background-position-y: 72%;
+}
+
+#nav6:hover {
+  background-image: url(images/iconsdark.png);
 }
 
 #nav7 {
@@ -121,10 +145,18 @@ nav {
   background-position-y: 86.5%;
 }
 
+#nav7:hover {
+  background-image: url(images/iconsdark.png);
+}
+
 #nav8 {
   background-image: url(images/icons.png);
   background-position-x: 50%;
   background-position-y: 101%;
+}
+
+#nav8:hover {
+  background-image: url(images/iconsdark.png);
 }
 
 #searchBar {
