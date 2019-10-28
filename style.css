@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/* NAV */
+nav {
+  width: 980px;
+  height: 36px;
+  margin: auto;
+  border: 1px solid #686868;
+  position: relative;
+  top: 20px;
+  z-index: 2;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    to bottom,
+    #626262 50%,
+    #797979 50%
+  );
+}
+
+#navList {
+  display: flex;
+  height: 100%;
+  margin-top: 0px;
+  padding-left: 0px;
+  border-radius: 5px;
+}
+
+#navList li {
+  list-style-type: none;
+  background-color: rgba(180, 180, 180, 0.445);
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  margin: auto;
+}
+
+#hide {
+  position: absolute;
+  visibility: hidden;
+}
+
+/* MAIN */
+#mainSection {
+  margin: auto;
+  width: 1440px;
+  height: 620px;
+  background-image: url(images/bannerImage.jpg);
+  background-position: center bottom;
+  position: relative;
+  top: -35px;
+
+}
+
+#mainText {
+  margin: auto;
+  width: 980px;
+  position: relative;
+  top: 150px;
+}
+
+#imageChange {
+  width: 980px;
+  height: 32px;
+  background-image: url(images/watchYourVerse.png);
+}
+
+#imageChange:hover {
+  background-position: bottom;
+}
+
+#links {
+  width: 1450px;
+  margin: auto;
+}
+
+#links img {
+  display: inline-block;
+  margin: 0px;
+}
