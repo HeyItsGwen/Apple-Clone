@@ -48,13 +48,14 @@ nav {
 /* MAIN */
 #mainSection {
   margin: auto;
-  width: 1440px;
+  width: 1450px;
   height: 620px;
   background-image: url(images/bannerImage.jpg);
   background-position: center bottom;
   position: relative;
   top: -35px;
-
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #mainText {
@@ -75,7 +76,7 @@ nav {
 }
 
 #links {
-  width: 1450px;
+  width: 1475px;
   margin: auto;
 }
 
