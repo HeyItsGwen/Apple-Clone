@@ -20,6 +20,11 @@ li a {
   text-decoration: none;
 }
 
+.hide {
+  position: absolute;
+  visibility: hidden;
+}
+
 /* NAV */
 nav {
   width: 980px;
@@ -110,11 +115,6 @@ nav {
   position: relative;
   top: -45px;
   left: 847px;
-}
-
-#hide {
-  position: absolute;
-  visibility: hidden;
 }
 
 /* MAIN */
