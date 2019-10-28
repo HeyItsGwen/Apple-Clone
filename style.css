@@ -63,6 +63,10 @@ nav {
   border-right: 1px solid #4b4b4b;
 }
 
+#footerTop a {
+  text-decoration: none;
+}
+
 #navList li a {
   display: inline-block;
   width: 100%;
@@ -204,10 +208,6 @@ nav {
 #footerTop {
   display: flex;
   justify-content: space-between;
-}
-
-#footerTop a {
-  text-decoration: none;
 }
 
 #footerBottom {
