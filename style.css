@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 li {
@@ -35,18 +35,19 @@ nav {
   top: 20px;
   z-index: 2;
   border-radius: 7px;
-  background-image: linear-gradient(
-    to bottom,
-    #626262 50%,
-    #797979 50%
+  background-image:
+    linear-gradient(
+      to bottom,
+     #626262 50%,
+     #797979 50%
   );
 }
 
 #navList {
   display: flex;
   height: 100%;
-  margin-top: 0px;
-  padding-left: 0px;
+  margin-top: 0;
+  padding-left: 0;
   border-radius: 6px;
   justify-content: flex-start;
   background-image: url(images/gradientFade.png);
@@ -155,7 +156,7 @@ nav {
 
 #links img {
   display: inline-flex;
-  margin: 0px;
+  margin: 0;
   width: 24.4%;
   position: relative;
   left: 10px;
@@ -193,6 +194,6 @@ nav {
 }
 
 #leftLine {
-  border-left: 1px solid #cccccc;
+  border-left: 1px solid #ccc;
   padding-left: 5px;
 }
