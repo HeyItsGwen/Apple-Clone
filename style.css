@@ -1,9 +1,18 @@
 * {
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
   margin: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
 }
 
 /* NAV */
@@ -32,7 +41,6 @@ nav {
 }
 
 #navList li {
-  list-style-type: none;
   background-color: rgba(180, 180, 180, 0.445);
   width: 30px;
   height: 30px;
@@ -83,4 +91,40 @@ nav {
 #links img {
   display: inline-block;
   margin: 0px;
+}
+
+/* FOOTER */
+#footerWrapper {
+  width: 980px;
+  font-size: 0.65em;
+  color: #6e6e6e;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#footerWrapper ul {
+  display: flex;
+}
+
+#footerWrapper ul li {
+  padding-right: 5px;
+}
+
+#footerTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerTop a {
+  text-decoration: none;
+}
+
+#footerBottom {
+  display: flex;
+}
+
+#leftLine {
+  border-left: 1px solid #cccccc;
+  padding-left: 5px;
 }
