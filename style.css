@@ -24,7 +24,7 @@ nav {
   position: relative;
   top: 20px;
   z-index: 2;
-  border-radius: 5px;
+  border-radius: 7px;
   background-image: linear-gradient(
     to bottom,
     #626262 50%,
@@ -37,15 +37,74 @@ nav {
   height: 100%;
   margin-top: 0px;
   padding-left: 0px;
-  border-radius: 5px;
+  border-radius: 6px;
+  justify-content: flex-start;
+  background-image: url(images/gradientFade.png);
 }
 
 #navList li {
-  background-color: rgba(180, 180, 180, 0.445);
-  width: 30px;
-  height: 30px;
-  border: 1px solid white;
-  margin: auto;
+  width: 103px;
+  height: 36px;
+  position: relative;
+  top: -1px;
+  left: -1px;
+  border-right: 1px solid #4b4b4b;
+}
+
+#nav1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: -1.5%;
+}
+
+#nav2 {
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: 13.2%;
+}
+
+#nav3 {
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: 27.5%;
+}
+
+#nav4 {
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: 42%;
+}
+
+#nav5 {
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: 57.3%;
+}
+
+#nav6 {
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: 72%;
+}
+
+#nav7 {
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: 86.5%;
+}
+
+#nav8 {
+  background-image: url(images/icons.png);
+  background-position-x: 50%;
+  background-position-y: 101%;
+}
+
+#searchBar {
+  position: relative;
+  top: -45px;
+  left: 847px;
 }
 
 #hide {
